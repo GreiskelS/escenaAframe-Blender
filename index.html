@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmersiva en Aframe</title>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+
+        <a-assets>
+            <a-asset-item id="modelo-gltf-paredes"
+            src="https://cdn.glitch.global/ad4a9a20-adce-40d5-917e-275b16b65d45/factoriaf5-paredesexternas.glb?v=1692791307850"></a-asset-item>        </a-assets>
+
+        <!-- <a-camera id="cameraAerea" camera="" position="0.00715 100 0" rotation="-5.271000000000001 102.789 0" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
+        <a-cursor position="0 1.6 0" material="" raycaster="" cursor="" geometry=""></a-cursor>
+       </a-camera> -->
+
+        <a-camera id="camera1" camera="" position="0.08716 3.94934 0" rotation="6.302535746439053 27.043607930174847 0" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
+            <a-cursor position="0 4 0" material="" raycaster="" cursor="" geometry=""></a-cursor>
+        </a-camera>
+
+        <a-entity static-body position="0 0 0" gltf-model="#modelo-gltf-paredes" modify-materials></a-entity>
+
+        <a-sky color="lightblue"></a-sky>
+    </a-scene>
+
+    <script src=""></script>
+</body>
+
+</html>
