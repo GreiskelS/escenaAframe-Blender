@@ -13,12 +13,12 @@
 
         <a-assets>
             <a-asset-item id="modelo-gltf-paredes"
-                src="https://cdn.glitch.global/ad4a9a20-adce-40d5-917e-275b16b65d45/factoriaf5-paredesyVentanasHuecas.glb?v=1692792111776"></a-asset-item>
+                src="https://cdn.glitch.global/ad4a9a20-adce-40d5-917e-275b16b65d45/factoriaf5-paredesyVentanasHuecas.glb?v=1692792111776" crossorigin="anonymous"></a-asset-item>
         </a-assets>
 
-        <!-- <a-camera id="cameraAerea" camera="" position="0.00715 100 0" rotation="-5.271000000000001 102.789 0" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
+        <a-camera id="cameraAerea" camera="" position="0.00715 100 0" rotation="-5.271000000000001 102.789 0" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
         <a-cursor position="0 1.6 0" material="" raycaster="" cursor="" geometry=""></a-cursor>
-       </a-camera> -->
+       </a-camera>
 
         <!-- <a-camera id="camera1" camera="" position="0.08716 3.94934 0" rotation="6.302535746439053 27.043607930174847 0"
             look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
@@ -27,7 +27,7 @@
 
         <a-entity static-body position="0 0 0" gltf-model="#modelo-gltf-paredes" modify-materials></a-entity>
 
-        <a-sky color="lightblue"></a-sky>
+        <a-entity id="paredes salones" position="84.74315 -92.48394 213.79894" gltf-model="https://cdn.glitch.global/ad4a9a20-adce-40d5-917e-275b16b65d45/factoriaf5-paredesSalones.glb?v=1692798129701" scale="1.3 1.3 1"></a-entity>        <a-sky color="lightblue"></a-sky>
     </a-scene>
 
     <script src=""></script>
